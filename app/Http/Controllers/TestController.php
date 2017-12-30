@@ -14,6 +14,7 @@ class TestController extends Controller
 
     public function index()
     {
+        //echo 'aa';die;
         //dd(app());
         $array =debug_backtrace();
         $html = '';
