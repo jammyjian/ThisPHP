@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 //Route::get('/','TestController@index');//Route::get('/user', 'UsersController@index');
+Route::get('/test/index','TestController@index');
+Route::get('/test/swaggerDoc','TestController@swaggerDoc');
+Route::get('/test/swagger2','TestController@swagger2');
+Route::get('/test/pam/{name}','TestController@param');

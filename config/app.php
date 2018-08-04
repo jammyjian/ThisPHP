@@ -166,8 +166,10 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
-         * Package Service Providers...
+         * Package Service Providers...[第三方依赖]
          */
+        Barryvdh\Debugbar\ServiceProvider::class,//Debugbar
+        Recca0120\LaravelTracy\LaravelTracyServiceProvider::class,//LaravelTracy
 
         /*
          * Application Service Providers...
@@ -177,6 +179,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
 
     ],
 
